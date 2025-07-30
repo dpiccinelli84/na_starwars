@@ -4,3 +4,6 @@
 *.jpeg
 *.gif
 *.svg
+
+# Ignore CSV files
+*.csv

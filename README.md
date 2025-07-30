@@ -4,9 +4,16 @@ This repository contains Python scripts to analyze the character interaction net
 
 ## Scripts
 
-- `analisi_newhope_v2.py`: Analyzes the character interaction network of *Star Wars: Episode IV – A New Hope*.
-- `analisi_empire_v1.py`: Analyzes the character interaction network of *Star Wars: Episode V – The Empire Strikes Back*.
-- `analisi_jedi_v1.py`: Analyzes the character interaction network of *Star Wars: Episode VI – Return of the Jedi*.
+The main script is `analisi_newhope_v2.py`, which is the most up-to-date and feature-complete. The other scripts (`analisi_empire_v1.py`, `analisi_jedi_v1.py`) are older versions.
+
+- **`analisi_newhope_v2.py`**: Analyzes the character interaction network of a Star Wars movie. This script is designed to be easily configurable to analyze any of the movies.
+
+## Configuration
+
+To analyze a different movie, you can change the following constants at the top of the `analisi_newhope_v2.py` script:
+
+- `MOVIE_TITLE`: The title of the movie (e.g., "Star Wars: The Empire Strikes Back"). This is used for titles and output filenames.
+- `JSON_FILE_PATH`: The path to the JSON file containing the network data (e.g., "movie-jsons/empire.json").
 
 ## Features
 
@@ -29,14 +36,19 @@ Each script performs the following analyses:
 
 ## How to Run
 
-1. **Install dependencies**: `pip install networkx matplotlib pandas scipy`
-2. **Run a script**: `python3 analisi_newhope_v2.py`
+1.  **Install dependencies**: `pip install networkx matplotlib pandas scipy`
+2.  **Run a script**: `python3 analisi_newhope_v2.py`
 
 ## Output
 
-Each script generates the following output files:
+The script generates the following output files, using the `MOVIE_TITLE` for naming:
 
-- `star_wars_[movie]_network.png`: A simple visualization of the network.
-- `star_wars_[movie]_network_communities.png`: A visualization of the network with nodes colored by community.
-- `star_wars_[movie]_robustness_analysis.png`: A plot showing the results of the robustness analysis.
-- `centralities_[movie].csv`: A CSV file containing the centrality scores for each character (only for *A New Hope* in the current version).
+- `[MOVIE_TITLE]_network.png`: A simple visualization of the network.
+- `[MOVIE_TITLE]_network_communities.png`: A visualization of the network with nodes colored by community.
+- `[MOVIE_TITLE]_robustness_analysis.png`: A plot showing the results of the robustness analysis.
+- `centralities_[MOVIE_TITLE].csv`: A CSV file containing the centrality scores for each character.
+
+## Project Structure
+
+- **`.gitignore`**: This file is configured to ignore generated image (`.png`) and data (`.csv`) files.
+- **`movie-jsons/`**: This directory contains the JSON data files for each movie, which are used as input for the analysis scripts.

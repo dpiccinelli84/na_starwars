@@ -6,6 +6,9 @@ import random
 import matplotlib.patches as mpatches
 from networkx.algorithms.community import louvain_communities
 
+MOVIE_TITLE = "Star Wars: The Empire Strikes Back"
+JSON_FILE_PATH = "movie-jsons/empire.json"
+
 def build_network_from_json(file_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
@@ -56,10 +59,9 @@ def analyze_robustness(G, removal_strategy='degree'):
 
 # --- Esecuzione Principale ---
 if __name__ == "__main__":
-    file_path = 'movie-jsons/new-hope.json'
-    G_anh = build_network_from_json(file_path)
+    G_anh = build_network_from_json(JSON_FILE_PATH)
 
-    print("Rete di 'Star Wars: A New Hope' costruita con successo!")
+    print(f"Rete di '{MOVIE_TITLE}' costruita con successo!")
     print(f"Numero di personaggi (nodi): {G_anh.number_of_nodes()}")
     print(f"Numero di interazioni (archi): {G_anh.number_of_edges()}")
 
@@ -67,8 +69,10 @@ if __name__ == "__main__":
     plt.figure(figsize=(15, 15))
     pos = nx.spring_layout(G_anh, k=0.5, iterations=50, seed=42)
     nx.draw(G_anh, pos, with_labels=True, node_color='skyblue', node_size=500, font_size=8, edge_color='gray')
-    plt.title("Rete dei Personaggi di 'Star Wars: A New Hope'", size=20)
-    plt.savefig('star_wars_newhope_network.png')
+    plt.title(f"Rete dei Personaggi di '{MOVIE_TITLE}'", size=20)
+    file_name = f"{MOVIE_TITLE}_network.png"
+    plt.savefig(file_name)
+    print(f"\nGrafico salvato in {file_name}")
 
     # --- Centralità ---
     print("\n--- Analisi di Centralità ---")
@@ -97,7 +101,9 @@ if __name__ == "__main__":
         'Eigenvector': [eigenvector_centrality.get(n, 0) for n in G_anh.nodes()],
         'PageRank': [pagerank.get(n, 0) for n in G_anh.nodes()],
     })
-    centralities_df.to_csv("centralities_newhope.csv", index=False)
+    file_name_csv = f"centralities_{MOVIE_TITLE}.csv"
+    centralities_df.to_csv(file_name_csv, index=False)
+    print(f"\nDati di centralità salvati in {file_name_csv}")
 
     # --- Community (Louvain) ---
     print("\n--- Analisi di Community (Metodo Louvain) ---")
@@ -123,7 +129,9 @@ if __name__ == "__main__":
 
     handles = [mpatches.Patch(color=plt.cm.Set1(i / len(communities)), label=f"Community {i+1}") for i in range(len(communities))]
     plt.legend(handles=handles, loc='best')
-    plt.savefig('star_wars_newhope_network_communities.png')
+    file_name_comm = f"{MOVIE_TITLE}_network_communities.png"
+    plt.savefig(file_name_comm)
+    print(f"\nGrafico salvato in {file_name_comm}")
 
     # --- Proprietà strutturali ---
     print("\n--- Analisi delle Proprietà Strutturali ---")
@@ -174,4 +182,8 @@ if __name__ == "__main__":
     plt.title("Robustezza della Rete")
     plt.grid(True)
     plt.legend()
-    plt.savefig('star_wars_newhope_robustness_analysis.png')
+    file_name_robust = f"{MOVIE_TITLE}_robustness_analysis.png"
+    plt.savefig(file_name_robust)
+    print(f"Grafico salvato in {file_name_robust}")
+
+    print("\nAnalisi terminata.")
