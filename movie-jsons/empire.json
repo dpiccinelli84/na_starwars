@@ -1,0 +1,1123 @@
+{
+  "network": {
+    "edges": [
+      {
+        "source": "DERLIN",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "DERLIN",
+        "target": "PILOTS",
+        "weight": 1
+      },
+      {
+        "source": "DERLIN",
+        "target": "LIEUTENANT",
+        "weight": 1
+      },
+      {
+        "source": "DERLIN",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "EMPEROR",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "MEDICAL DROID",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "MAN",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "HAN",
+        "weight": 18
+      },
+      {
+        "source": "THREEPIO",
+        "target": "DECK OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "SENIOR CONTROLLER",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "LIEUTENANT",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "IMPERIAL OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "INTERCOM VOICE",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "RIEEKAN",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "LEIA",
+        "weight": 12
+      },
+      {
+        "source": "THREEPIO",
+        "target": "BOBA FETT",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "LANDO",
+        "weight": 4
+      },
+      {
+        "source": "THREEPIO",
+        "target": "ANNOUNCER",
+        "weight": 2
+      },
+      {
+        "source": "JANSON",
+        "target": "WEDGE",
+        "weight": 1
+      },
+      {
+        "source": "DECK OFFICER",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "YODA",
+        "target": "BEN",
+        "weight": 1
+      },
+      {
+        "source": "YODA",
+        "target": "CREATURE",
+        "weight": 1
+      },
+      {
+        "source": "YODA",
+        "target": "LUKE",
+        "weight": 4
+      },
+      {
+        "source": "COMMUNICATIONS OFFICER",
+        "target": "NEEDA",
+        "weight": 1
+      },
+      {
+        "source": "COMMUNICATIONS OFFICER",
+        "target": "TRACKING OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "OZZEL",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "OZZEL",
+        "target": "PIETT",
+        "weight": 1
+      },
+      {
+        "source": "OZZEL",
+        "target": "VEERS",
+        "weight": 1
+      },
+      {
+        "source": "WEDGE",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "CREATURE",
+        "target": "BEN",
+        "weight": 1
+      },
+      {
+        "source": "CREATURE",
+        "target": "LUKE",
+        "weight": 2
+      },
+      {
+        "source": "CREATURE",
+        "target": "STRANGE VOICE",
+        "weight": 1
+      },
+      {
+        "source": "NEEDA",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "NEEDA",
+        "target": "PIETT",
+        "weight": 1
+      },
+      {
+        "source": "NEEDA",
+        "target": "TRACKING OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "INTERCOM VOICE",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "INTERCOM VOICE",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "CONTROLLER",
+        "target": "RIEEKAN",
+        "weight": 1
+      },
+      {
+        "source": "CONTROLLER",
+        "target": "TRENCH OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "CONTROLLER",
+        "target": "CAPTAIN",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "HAN",
+        "weight": 22
+      },
+      {
+        "source": "LEIA",
+        "target": "SENIOR CONTROLLER",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "IMPERIAL OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "PILOTS",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "RIEEKAN",
+        "weight": 3
+      },
+      {
+        "source": "LEIA",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "BOBA FETT",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "LANDO",
+        "weight": 5
+      },
+      {
+        "source": "LEIA",
+        "target": "ANNOUNCER",
+        "weight": 2
+      },
+      {
+        "source": "BEN",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "LUKE",
+        "weight": 2
+      },
+      {
+        "source": "HAN",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "SENIOR CONTROLLER",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "RIEEKAN",
+        "weight": 2
+      },
+      {
+        "source": "HAN",
+        "target": "IMPERIAL OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "ZEV",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "LUKE",
+        "weight": 3
+      },
+      {
+        "source": "HAN",
+        "target": "BOBA FETT",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "LANDO",
+        "weight": 4
+      },
+      {
+        "source": "HAN",
+        "target": "ANNOUNCER",
+        "weight": 2
+      },
+      {
+        "source": "LANDO",
+        "target": "VADER",
+        "weight": 2
+      },
+      {
+        "source": "LANDO",
+        "target": "IMPERIAL OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "BOBA FETT",
+        "weight": 2
+      },
+      {
+        "source": "VADER",
+        "target": "PIETT",
+        "weight": 4
+      },
+      {
+        "source": "VADER",
+        "target": "IMPERIAL OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "VADER",
+        "target": "LUKE",
+        "weight": 2
+      },
+      {
+        "source": "VADER",
+        "target": "BOBA FETT",
+        "weight": 2
+      },
+      {
+        "source": "VADER",
+        "target": "VEERS",
+        "weight": 1
+      },
+      {
+        "source": "PILOT",
+        "target": "VEERS",
+        "weight": 1
+      },
+      {
+        "source": "SENIOR CONTROLLER",
+        "target": "RIEEKAN",
+        "weight": 1
+      },
+      {
+        "source": "IMPERIAL OFFICER",
+        "target": "BOBA FETT",
+        "weight": 1
+      },
+      {
+        "source": "STRANGE VOICE",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "PIETT",
+        "target": "BOBA FETT",
+        "weight": 1
+      },
+      {
+        "source": "PIETT",
+        "target": "VEERS",
+        "weight": 1
+      },
+      {
+        "source": "LUKE",
+        "target": "ZEV",
+        "weight": 1
+      },
+      {
+        "source": "LUKE",
+        "target": "DACK",
+        "weight": 2
+      },
+      {
+        "source": "LUKE",
+        "target": "ANNOUNCER",
+        "weight": 1
+      },
+      {
+        "source": "DACK",
+        "target": "ANNOUNCER",
+        "weight": 1
+      }
+    ],
+    "nodes": [
+      {
+        "id": "DERLIN",
+        "name": "DERLIN",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 4,
+        "pagerank": 0.01571825204091954,
+        "object_id": "4769610",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.611111111111111,
+        "betweenness centrality": 2.833333333333333,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "EMPEROR",
+        "name": "EMPEROR",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 1,
+        "pagerank": 0.0068596786417182195,
+        "object_id": "4772308",
+        "triangles": 0,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.8055555555555554,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "MEDICAL DROID",
+        "name": "MEDICAL DROID",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 1,
+        "pagerank": 0.006871715778893377,
+        "object_id": "4770116",
+        "triangles": 0,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.8055555555555554,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "THREEPIO",
+        "name": "THREEPIO",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 15,
+        "pagerank": 0.10624467449314128,
+        "object_id": "4769357",
+        "triangles": 32,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.75,
+        "betweenness centrality": 145.86904761904762,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "JANSON",
+        "name": "JANSON",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 1,
+        "pagerank": 0.010919041313840725,
+        "object_id": "4770669",
+        "triangles": 0,
+        "eccentricity": 6.0,
+        "closeness centrality": 3.7222222222222223,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "DECK OFFICER",
+        "name": "DECK OFFICER",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 2,
+        "pagerank": 0.00782984830389113,
+        "object_id": "4769440",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.638888888888889,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "YODA",
+        "name": "YODA",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 3,
+        "pagerank": 0.021838619964367728,
+        "object_id": "4772431",
+        "triangles": 3,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.75,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "COMMUNICATIONS OFFICER",
+        "name": "COMMUNICATIONS OFFICER",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 2,
+        "pagerank": 0.01578003997155795,
+        "object_id": "4773040",
+        "triangles": 1,
+        "eccentricity": 6.0,
+        "closeness centrality": 3.611111111111111,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "OZZEL",
+        "name": "OZZEL",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 3,
+        "pagerank": 0.014835866568936762,
+        "object_id": "4770022",
+        "triangles": 3,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.7222222222222223,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LIEUTENANT",
+        "name": "LIEUTENANT",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 2,
+        "pagerank": 0.009315568202499009,
+        "object_id": "4769596",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.6666666666666665,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "WEDGE",
+        "name": "WEDGE",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 2,
+        "pagerank": 0.016152910955895248,
+        "object_id": "4770610",
+        "triangles": 0,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.75,
+        "betweenness centrality": 35.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "CREATURE",
+        "name": "CREATURE",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 4,
+        "pagerank": 0.020239180367607336,
+        "object_id": "4771904",
+        "triangles": 4,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.7222222222222223,
+        "betweenness centrality": 1.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "NEEDA",
+        "name": "NEEDA",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 4,
+        "pagerank": 0.023618807442518364,
+        "object_id": "4772252",
+        "triangles": 2,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.6666666666666665,
+        "betweenness centrality": 68.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "TRACKING OFFICER",
+        "name": "TRACKING OFFICER",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 2,
+        "pagerank": 0.01578003997155795,
+        "object_id": "4773027",
+        "triangles": 1,
+        "eccentricity": 6.0,
+        "closeness centrality": 3.611111111111111,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "INTERCOM VOICE",
+        "name": "INTERCOM VOICE",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 3,
+        "pagerank": 0.00968333730035173,
+        "object_id": "4773448",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.5833333333333335,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "CONTROLLER",
+        "name": "CONTROLLER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 3,
+        "pagerank": 0.026308208313381022,
+        "object_id": "4770175",
+        "triangles": 0,
+        "eccentricity": 5.0,
+        "closeness centrality": 3.25,
+        "betweenness centrality": 69.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LEIA",
+        "name": "LEIA",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 13,
+        "pagerank": 0.11338990931447107,
+        "object_id": "4769261",
+        "triangles": 31,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.8055555555555556,
+        "betweenness centrality": 95.70238095238096,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "BEN",
+        "name": "BEN",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 4,
+        "pagerank": 0.018078184527527227,
+        "object_id": "4769650",
+        "triangles": 4,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.4722222222222223,
+        "betweenness centrality": 5.333333333333333,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "HAN",
+        "name": "HAN",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 14,
+        "pagerank": 0.1287164087921638,
+        "object_id": "4769119",
+        "triangles": 32,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.7777777777777777,
+        "betweenness centrality": 103.20238095238095,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LANDO",
+        "name": "LANDO",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 7,
+        "pagerank": 0.04394879903271883,
+        "object_id": "4773543",
+        "triangles": 19,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.0555555555555554,
+        "betweenness centrality": 2.9166666666666674,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "CAPTAIN",
+        "name": "CAPTAIN",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 1,
+        "pagerank": 0.011510438281578165,
+        "object_id": "4770343",
+        "triangles": 0,
+        "eccentricity": 6.0,
+        "closeness centrality": 4.222222222222222,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "VADER",
+        "name": "VADER",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 12,
+        "pagerank": 0.05941243655017738,
+        "object_id": "4770051",
+        "triangles": 24,
+        "eccentricity": 4.0,
+        "closeness centrality": 1.8333333333333333,
+        "betweenness centrality": 225.32142857142856,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "MAN",
+        "name": "MAN",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 1,
+        "pagerank": 0.005975477195954352,
+        "object_id": "4773721",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.7222222222222223,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "TRENCH OFFICER",
+        "name": "TRENCH OFFICER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 1,
+        "pagerank": 0.011510438281578165,
+        "object_id": "4770418",
+        "triangles": 0,
+        "eccentricity": 6.0,
+        "closeness centrality": 4.222222222222222,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "PILOT",
+        "name": "PILOT",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 1,
+        "pagerank": 0.00868470119035759,
+        "object_id": "4771003",
+        "triangles": 0,
+        "eccentricity": 6.0,
+        "closeness centrality": 3.6666666666666665,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "SENIOR CONTROLLER",
+        "name": "SENIOR CONTROLLER",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 4,
+        "pagerank": 0.012374387814851956,
+        "object_id": "4769923",
+        "triangles": 6,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.4722222222222223,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "IMPERIAL OFFICER",
+        "name": "IMPERIAL OFFICER",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 6,
+        "pagerank": 0.016811843759521595,
+        "object_id": "4771329",
+        "triangles": 15,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.2777777777777777,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "STRANGE VOICE",
+        "name": "STRANGE VOICE",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 2,
+        "pagerank": 0.010312361332466862,
+        "object_id": "4771890",
+        "triangles": 1,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.7777777777777777,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "PIETT",
+        "name": "PIETT",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 5,
+        "pagerank": 0.03148673601250399,
+        "object_id": "4770019",
+        "triangles": 5,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.611111111111111,
+        "betweenness centrality": 7.5,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "PILOTS",
+        "name": "PILOTS",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 2,
+        "pagerank": 0.009247634057059313,
+        "object_id": "4770286",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.7222222222222223,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LUKE",
+        "name": "LUKE",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 14,
+        "pagerank": 0.07624301243568572,
+        "object_id": "4769112",
+        "triangles": 20,
+        "eccentricity": 4.0,
+        "closeness centrality": 1.8333333333333333,
+        "betweenness centrality": 223.47619047619045,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "RIEEKAN",
+        "name": "RIEEKAN",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 5,
+        "pagerank": 0.02533070692655479,
+        "object_id": "4769205",
+        "triangles": 6,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.388888888888889,
+        "betweenness centrality": 99.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "ZEV",
+        "name": "ZEV",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 2,
+        "pagerank": 0.008726086886830155,
+        "object_id": "4769751",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.5277777777777777,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "DACK",
+        "name": "DACK",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 2,
+        "pagerank": 0.011976220409574256,
+        "object_id": "4770383",
+        "triangles": 1,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.7777777777777777,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "ANNOUNCER",
+        "name": "ANNOUNCER",
+        "color": "#00B9DB",
+        "group": 4,
+        "degree": 5,
+        "pagerank": 0.021523529796955404,
+        "object_id": "4769894",
+        "triangles": 7,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.3333333333333335,
+        "betweenness centrality": 7.75,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "BOBA FETT",
+        "name": "BOBA FETT",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 7,
+        "pagerank": 0.024954012523024503,
+        "object_id": "4772901",
+        "triangles": 16,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.25,
+        "betweenness centrality": 9.095238095238095,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "VEERS",
+        "name": "VEERS",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 4,
+        "pagerank": 0.02179088524736745,
+        "object_id": "4770200",
+        "triangles": 3,
+        "eccentricity": 5.0,
+        "closeness centrality": 2.6944444444444446,
+        "betweenness centrality": 35.0,
+        "eigenvector centrality": 0
+      }
+    ],
+    "positions": [
+      {
+        "x": -67.19186,
+        "y": 193.24744,
+        "name": "DERLIN"
+      },
+      {
+        "x": -170.70804,
+        "y": -84.94386,
+        "name": "EMPEROR"
+      },
+      {
+        "x": 141.14667,
+        "y": -126.86566,
+        "name": "MEDICAL DROID"
+      },
+      {
+        "x": -13.989467,
+        "y": 51.46532,
+        "name": "THREEPIO"
+      },
+      {
+        "x": 173.69809,
+        "y": 27.09029,
+        "name": "JANSON"
+      },
+      {
+        "x": 29.92317,
+        "y": -45.913883,
+        "name": "DECK OFFICER"
+      },
+      {
+        "x": 186.23798,
+        "y": -20.537542,
+        "name": "YODA"
+      },
+      {
+        "x": -374.73712,
+        "y": 92.67379,
+        "name": "COMMUNICATIONS OFFICER"
+      },
+      {
+        "x": -228.8815,
+        "y": -55.086693,
+        "name": "OZZEL"
+      },
+      {
+        "x": -117.84324,
+        "y": 173.31236,
+        "name": "LIEUTENANT"
+      },
+      {
+        "x": 157.17995,
+        "y": -88.8454,
+        "name": "WEDGE"
+      },
+      {
+        "x": 234.7824,
+        "y": -31.322592,
+        "name": "CREATURE"
+      },
+      {
+        "x": -308.3757,
+        "y": 47.27921,
+        "name": "NEEDA"
+      },
+      {
+        "x": -384.97403,
+        "y": 55.423115,
+        "name": "TRACKING OFFICER"
+      },
+      {
+        "x": -32.427856,
+        "y": -9.341386,
+        "name": "INTERCOM VOICE"
+      },
+      {
+        "x": 29.510725,
+        "y": -148.65154,
+        "name": "CONTROLLER"
+      },
+      {
+        "x": 7.1606927,
+        "y": 91.925804,
+        "name": "LEIA"
+      },
+      {
+        "x": 205.59027,
+        "y": 18.517708,
+        "name": "BEN"
+      },
+      {
+        "x": 28.288155,
+        "y": 52.857307,
+        "name": "HAN"
+      },
+      {
+        "x": -51.963623,
+        "y": 72.27536,
+        "name": "LANDO"
+      },
+      {
+        "x": 33.857674,
+        "y": -211.72716,
+        "name": "CAPTAIN"
+      },
+      {
+        "x": -132.15897,
+        "y": 5.815026,
+        "name": "VADER"
+      },
+      {
+        "x": 49.69757,
+        "y": 169.25864,
+        "name": "MAN"
+      },
+      {
+        "x": -12.053105,
+        "y": -194.43765,
+        "name": "TRENCH OFFICER"
+      },
+      {
+        "x": -336.03674,
+        "y": -69.22729,
+        "name": "PILOT"
+      },
+      {
+        "x": 27.359306,
+        "y": -4.3764777,
+        "name": "SENIOR CONTROLLER"
+      },
+      {
+        "x": -83.156525,
+        "y": 116.558044,
+        "name": "IMPERIAL OFFICER"
+      },
+      {
+        "x": 270.59116,
+        "y": -5.876571,
+        "name": "STRANGE VOICE"
+      },
+      {
+        "x": -208.01277,
+        "y": 3.651613,
+        "name": "PIETT"
+      },
+      {
+        "x": -36.14131,
+        "y": 227.8263,
+        "name": "PILOTS"
+      },
+      {
+        "x": 123.524,
+        "y": -8.929747,
+        "name": "LUKE"
+      },
+      {
+        "x": 69.255394,
+        "y": 85.85809,
+        "name": "RIEEKAN"
+      },
+      {
+        "x": 167.76346,
+        "y": -55.300385,
+        "name": "ZEV"
+      },
+      {
+        "x": 127.94786,
+        "y": -54.752678,
+        "name": "DACK"
+      },
+      {
+        "x": 82.533714,
+        "y": 40.67431,
+        "name": "ANNOUNCER"
+      },
+      {
+        "x": -115.79461,
+        "y": 67.16896,
+        "name": "BOBA FETT"
+      },
+      {
+        "x": -275.88574,
+        "y": -49.05206,
+        "name": "VEERS"
+      }
+    ]
+  }
+}
