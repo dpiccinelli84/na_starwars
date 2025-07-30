@@ -4,13 +4,13 @@ This repository contains Python scripts to analyze the character interaction net
 
 ## Scripts
 
-The main script is `analisi_newhope_v2.py`, which is the most up-to-date and feature-complete. The other scripts (`analisi_empire_v1.py`, `analisi_jedi_v1.py`) are older versions.
-
-- **`analisi_newhope_v2.py`**: Analyzes the character interaction network of a Star Wars movie. This script is designed to be easily configurable to analyze any of the movies.
+- **`analisi_ANH.py`**: Analyzes the character interaction network of a *Star Wars: Episode IV – A New Hope*.
+- **`analisi_ESB.py`**: Analyzes the character interaction network of *Star Wars: Episode V – The Empire Strikes Back*.
+- **`analisi_RJ.py`**: Analyzes the character interaction network of *Star Wars: Episode VI – Return of the Jedi*.
 
 ## Configuration
 
-To analyze a different movie, you can change the following constants at the top of the `analisi_newhope_v2.py` script:
+To analyze a different movie, you can change the following constants at the top of any of the scripts:
 
 - `MOVIE_TITLE`: The title of the movie (e.g., "Star Wars: The Empire Strikes Back"). This is used for titles and output filenames.
 - `JSON_FILE_PATH`: The path to the JSON file containing the network data (e.g., "movie-jsons/empire.json").
@@ -37,7 +37,7 @@ Each script performs the following analyses:
 ## How to Run
 
 1.  **Install dependencies**: `pip install networkx matplotlib pandas scipy`
-2.  **Run a script**: `python3 analisi_newhope_v2.py`
+2.  **Run a script**: `python3 analisi_ANH.py`
 
 ## Output
 
