@@ -1,0 +1,1038 @@
+{
+  "network": {
+    "edges": [
+      {
+        "source": "EMPEROR",
+        "target": "VADER",
+        "weight": 3
+      },
+      {
+        "source": "EMPEROR",
+        "target": "LUKE",
+        "weight": 2
+      },
+      {
+        "source": "BEN",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "JABBA",
+        "target": "BOUSHH",
+        "weight": 1
+      },
+      {
+        "source": "JABBA",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "JABBA",
+        "target": "OOLA",
+        "weight": 1
+      },
+      {
+        "source": "JABBA",
+        "target": "BIB",
+        "weight": 1
+      },
+      {
+        "source": "JABBA",
+        "target": "THREEPIO",
+        "weight": 2
+      },
+      {
+        "source": "STORMTROOPER",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "STORMTROOPER",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "STORMTROOPER",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "GUARD",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "PILOT",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "LUKE",
+        "weight": 3
+      },
+      {
+        "source": "LANDO",
+        "target": "RED LEADER",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "MON MOTHMA",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "WEDGE",
+        "weight": 4
+      },
+      {
+        "source": "LANDO",
+        "target": "HAN",
+        "weight": 5
+      },
+      {
+        "source": "LANDO",
+        "target": "CONTROLLER",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "NAVIGATOR",
+        "weight": 1
+      },
+      {
+        "source": "LANDO",
+        "target": "REBEL PILOT",
+        "weight": 2
+      },
+      {
+        "source": "LANDO",
+        "target": "ACKBAR",
+        "weight": 4
+      },
+      {
+        "source": "LANDO",
+        "target": "GENERAL MADINE",
+        "weight": 1
+      },
+      {
+        "source": "MON MOTHMA",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "MON MOTHMA",
+        "target": "ACKBAR",
+        "weight": 1
+      },
+      {
+        "source": "MON MOTHMA",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "MON MOTHMA",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "MON MOTHMA",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "MON MOTHMA",
+        "target": "GENERAL MADINE",
+        "weight": 1
+      },
+      {
+        "source": "BOUSHH",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "BOUSHH",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "BOUSHH",
+        "target": "OOLA",
+        "weight": 1
+      },
+      {
+        "source": "BOUSHH",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "GENERAL MADINE",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "LEIA",
+        "weight": 14
+      },
+      {
+        "source": "HAN",
+        "target": "ACKBAR",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "COMMANDER",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "LUKE",
+        "weight": 11
+      },
+      {
+        "source": "HAN",
+        "target": "THREEPIO",
+        "weight": 12
+      },
+      {
+        "source": "HAN",
+        "target": "SCOUT #1",
+        "weight": 1
+      },
+      {
+        "source": "CONTROLLER",
+        "target": "ACKBAR",
+        "weight": 1
+      },
+      {
+        "source": "CONTROLLER",
+        "target": "REBEL PILOT",
+        "weight": 1
+      },
+      {
+        "source": "CONTROLLER",
+        "target": "COMMANDER",
+        "weight": 1
+      },
+      {
+        "source": "CONTROLLER",
+        "target": "PIETT",
+        "weight": 1
+      },
+      {
+        "source": "CONTROLLER",
+        "target": "WEDGE",
+        "weight": 1
+      },
+      {
+        "source": "NAVIGATOR",
+        "target": "WEDGE",
+        "weight": 1
+      },
+      {
+        "source": "REBEL PILOT",
+        "target": "ACKBAR",
+        "weight": 2
+      },
+      {
+        "source": "REBEL PILOT",
+        "target": "WEDGE",
+        "weight": 2
+      },
+      {
+        "source": "YODA",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "PIETT",
+        "target": "COMMANDER",
+        "weight": 1
+      },
+      {
+        "source": "PIETT",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "SCOUT #1",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "SCOUT #1",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "STRANGE VOICE",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "NINEDENINE",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "PILOT",
+        "target": "WEDGE",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "LUKE",
+        "weight": 5
+      },
+      {
+        "source": "LEIA",
+        "target": "ACKBAR",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "COMMANDER",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "THREEPIO",
+        "weight": 8
+      },
+      {
+        "source": "LEIA",
+        "target": "GENERAL MADINE",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "COMMANDER",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "BIB",
+        "weight": 2
+      },
+      {
+        "source": "THREEPIO",
+        "target": "OOLA",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "LUKE",
+        "weight": 6
+      },
+      {
+        "source": "THREEPIO",
+        "target": "ACKBAR",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "GENERAL MADINE",
+        "weight": 1
+      },
+      {
+        "source": "COMMANDER",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "COMMANDER",
+        "target": "LURE",
+        "weight": 1
+      },
+      {
+        "source": "COMMANDER",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "LURE",
+        "target": "ANAKIN",
+        "weight": 1
+      },
+      {
+        "source": "LURE",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "LURE",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "LUKE",
+        "target": "VADER",
+        "weight": 4
+      },
+      {
+        "source": "LUKE",
+        "target": "BIB",
+        "weight": 1
+      },
+      {
+        "source": "LUKE",
+        "target": "ANAKIN",
+        "weight": 1
+      },
+      {
+        "source": "LUKE",
+        "target": "GENERAL MADINE",
+        "weight": 1
+      },
+      {
+        "source": "LUKE",
+        "target": "ACKBAR",
+        "weight": 1
+      },
+      {
+        "source": "GENERAL MADINE",
+        "target": "ACKBAR",
+        "weight": 1
+      },
+      {
+        "source": "WEDGE",
+        "target": "ACKBAR",
+        "weight": 1
+      },
+      {
+        "source": "VADER",
+        "target": "JERJERROD",
+        "weight": 1
+      },
+      {
+        "source": "VADER",
+        "target": "ANAKIN",
+        "weight": 1
+      }
+    ],
+    "nodes": [
+      {
+        "id": "EMPEROR",
+        "name": "EMPEROR",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 2,
+        "pagerank": 0.020161413480037776,
+        "object_id": "4765901",
+        "triangles": 1,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.2903225806451615,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "BEN",
+        "name": "BEN",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 1,
+        "pagerank": 0.007151963238466834,
+        "object_id": "4766059",
+        "triangles": 0,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.4193548387096775,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "JABBA",
+        "name": "JABBA",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 5,
+        "pagerank": 0.021821178822694746,
+        "object_id": "4764674",
+        "triangles": 6,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.129032258064516,
+        "betweenness centrality": 6.821428571428571,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "STORMTROOPER",
+        "name": "STORMTROOPER",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 3,
+        "pagerank": 0.01130535551355074,
+        "object_id": "4768114",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.4516129032258065,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "GUARD",
+        "name": "GUARD",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 1,
+        "pagerank": 0.00820249566770137,
+        "object_id": "4766966",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 3.032258064516129,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LANDO",
+        "name": "LANDO",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 13,
+        "pagerank": 0.07836973301851878,
+        "object_id": "4765498",
+        "triangles": 29,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.6451612903225807,
+        "betweenness centrality": 106.652380952381,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "RED LEADER",
+        "name": "RED LEADER",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 1,
+        "pagerank": 0.007249574629940126,
+        "object_id": "4768018",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.6129032258064515,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "MON MOTHMA",
+        "name": "MON MOTHMA",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 7,
+        "pagerank": 0.02144196539054418,
+        "object_id": "4766261",
+        "triangles": 21,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.8709677419354838,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "BOUSHH",
+        "name": "BOUSHH",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 5,
+        "pagerank": 0.018136375967703885,
+        "object_id": "4764905",
+        "triangles": 6,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.3870967741935485,
+        "betweenness centrality": 1.9999999999999998,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "HAN",
+        "name": "HAN",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 11,
+        "pagerank": 0.12297145571029752,
+        "object_id": "4764974",
+        "triangles": 30,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.7096774193548387,
+        "betweenness centrality": 21.6952380952381,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "CONTROLLER",
+        "name": "CONTROLLER",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 6,
+        "pagerank": 0.02277652734094466,
+        "object_id": "4768044",
+        "triangles": 7,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.2580645161290325,
+        "betweenness centrality": 14.504761904761903,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "NAVIGATOR",
+        "name": "NAVIGATOR",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 2,
+        "pagerank": 0.010242688785345781,
+        "object_id": "4768226",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.5806451612903225,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "REBEL PILOT",
+        "name": "REBEL PILOT",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 4,
+        "pagerank": 0.024037592810435722,
+        "object_id": "4768062",
+        "triangles": 6,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.4516129032258065,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "YODA",
+        "name": "YODA",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 1,
+        "pagerank": 0.007151963238466834,
+        "object_id": "4765938",
+        "triangles": 0,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.4193548387096775,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "PIETT",
+        "name": "PIETT",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 3,
+        "pagerank": 0.01444500521692537,
+        "object_id": "4766592",
+        "triangles": 2,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.3870967741935485,
+        "betweenness centrality": 3.3666666666666667,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "SCOUT #1",
+        "name": "SCOUT #1",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 3,
+        "pagerank": 0.011431769903281146,
+        "object_id": "4766682",
+        "triangles": 3,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.2903225806451615,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "STRANGE VOICE",
+        "name": "STRANGE VOICE",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 1,
+        "pagerank": 0.007025548848736428,
+        "object_id": "4764563",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.5483870967741935,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "NINEDENINE",
+        "name": "NINEDENINE",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 1,
+        "pagerank": 0.007025548848736428,
+        "object_id": "4764757",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.5483870967741935,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "PILOT",
+        "name": "PILOT",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 2,
+        "pagerank": 0.010242688785345781,
+        "object_id": "4768836",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.5806451612903225,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LEIA",
+        "name": "LEIA",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 11,
+        "pagerank": 0.08839467708707266,
+        "object_id": "4764992",
+        "triangles": 30,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.7096774193548387,
+        "betweenness centrality": 21.6952380952381,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "THREEPIO",
+        "name": "THREEPIO",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 15,
+        "pagerank": 0.11002888731876664,
+        "object_id": "4764535",
+        "triangles": 34,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.5806451612903225,
+        "betweenness centrality": 110.44523809523808,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "COMMANDER",
+        "name": "COMMANDER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 8,
+        "pagerank": 0.02838195291306735,
+        "object_id": "4767569",
+        "triangles": 11,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.8387096774193548,
+        "betweenness centrality": 38.50714285714285,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LURE",
+        "name": "LURE",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 4,
+        "pagerank": 0.01777540978709855,
+        "object_id": "4767602",
+        "triangles": 5,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.193548387096774,
+        "betweenness centrality": 0.49999999999999994,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LUKE",
+        "name": "LUKE",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 17,
+        "pagerank": 0.1217733453149976,
+        "object_id": "4764687",
+        "triangles": 35,
+        "eccentricity": 2.0,
+        "closeness centrality": 1.4516129032258065,
+        "betweenness centrality": 186.72380952380954,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "GENERAL MADINE",
+        "name": "GENERAL MADINE",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 7,
+        "pagerank": 0.02144196539054418,
+        "object_id": "4766317",
+        "triangles": 21,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.8709677419354838,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "WEDGE",
+        "name": "WEDGE",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 6,
+        "pagerank": 0.03521307945932346,
+        "object_id": "4767981",
+        "triangles": 8,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.3870967741935485,
+        "betweenness centrality": 4.833333333333333,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "VADER",
+        "name": "VADER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 8,
+        "pagerank": 0.053750783394590815,
+        "object_id": "4764489",
+        "triangles": 7,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.064516129032258,
+        "betweenness centrality": 66.76904761904763,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "JERJERROD",
+        "name": "JERJERROD",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 1,
+        "pagerank": 0.00820249566770137,
+        "object_id": "4764485",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 3.032258064516129,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "OOLA",
+        "name": "OOLA",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 3,
+        "pagerank": 0.013199823949289641,
+        "object_id": "4764818",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.4838709677419355,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "ANAKIN",
+        "name": "ANAKIN",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 3,
+        "pagerank": 0.014444440528649008,
+        "object_id": "4768920",
+        "triangles": 3,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.2580645161290325,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "ACKBAR",
+        "name": "ACKBAR",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 10,
+        "pagerank": 0.04128300974396333,
+        "object_id": "4766287",
+        "triangles": 27,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.7419354838709677,
+        "betweenness centrality": 26.485714285714284,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "BIB",
+        "name": "BIB",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 3,
+        "pagerank": 0.014919284227261066,
+        "object_id": "4764613",
+        "triangles": 3,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.193548387096774,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      }
+    ],
+    "positions": [
+      {
+        "x": -9.0271435,
+        "y": 144.0666,
+        "name": "EMPEROR"
+      },
+      {
+        "x": 124.664154,
+        "y": 51.974686,
+        "name": "BEN"
+      },
+      {
+        "x": -133.86353,
+        "y": 99.622894,
+        "name": "JABBA"
+      },
+      {
+        "x": 56.442104,
+        "y": 32.612583,
+        "name": "STORMTROOPER"
+      },
+      {
+        "x": -62.50417,
+        "y": 252.8414,
+        "name": "GUARD"
+      },
+      {
+        "x": 30.047554,
+        "y": -91.73688,
+        "name": "LANDO"
+      },
+      {
+        "x": 145.0308,
+        "y": -164.56741,
+        "name": "RED LEADER"
+      },
+      {
+        "x": -66.519875,
+        "y": -82.18818,
+        "name": "MON MOTHMA"
+      },
+      {
+        "x": -149.33719,
+        "y": 44.407185,
+        "name": "BOUSHH"
+      },
+      {
+        "x": -27.023127,
+        "y": -12.646662,
+        "name": "HAN"
+      },
+      {
+        "x": 116.84189,
+        "y": -78.694275,
+        "name": "CONTROLLER"
+      },
+      {
+        "x": 110.67388,
+        "y": -186.03612,
+        "name": "NAVIGATOR"
+      },
+      {
+        "x": 27.310356,
+        "y": -165.9013,
+        "name": "REBEL PILOT"
+      },
+      {
+        "x": 80.20336,
+        "y": 162.19363,
+        "name": "YODA"
+      },
+      {
+        "x": 148.01945,
+        "y": 91.5895,
+        "name": "PIETT"
+      },
+      {
+        "x": 66.44773,
+        "y": -10.210574,
+        "name": "SCOUT #1"
+      },
+      {
+        "x": -135.55397,
+        "y": -97.28305,
+        "name": "STRANGE VOICE"
+      },
+      {
+        "x": 106.890816,
+        "y": 2.4593928,
+        "name": "NINEDENINE"
+      },
+      {
+        "x": 50.70359,
+        "y": -223.38486,
+        "name": "PILOT"
+      },
+      {
+        "x": 3.4325418,
+        "y": 6.166881,
+        "name": "LEIA"
+      },
+      {
+        "x": -59.446526,
+        "y": 21.860954,
+        "name": "THREEPIO"
+      },
+      {
+        "x": 77.26411,
+        "y": 94.8644,
+        "name": "COMMANDER"
+      },
+      {
+        "x": 40.00716,
+        "y": 217.89676,
+        "name": "LURE"
+      },
+      {
+        "x": -7.892989,
+        "y": 59.5796,
+        "name": "LUKE"
+      },
+      {
+        "x": -101.54904,
+        "y": -48.13364,
+        "name": "GENERAL MADINE"
+      },
+      {
+        "x": 69.73379,
+        "y": -161.0191,
+        "name": "WEDGE"
+      },
+      {
+        "x": 27.348198,
+        "y": 165.83305,
+        "name": "VADER"
+      },
+      {
+        "x": 104.88874,
+        "y": 220.85228,
+        "name": "JERJERROD"
+      },
+      {
+        "x": -188.62198,
+        "y": 95.99823,
+        "name": "OOLA"
+      },
+      {
+        "x": -13.443138,
+        "y": 220.15483,
+        "name": "ANAKIN"
+      },
+      {
+        "x": -16.126123,
+        "y": -118.90764,
+        "name": "ACKBAR"
+      },
+      {
+        "x": -86.27206,
+        "y": 100.27671,
+        "name": "BIB"
+      }
+    ]
+  }
+}

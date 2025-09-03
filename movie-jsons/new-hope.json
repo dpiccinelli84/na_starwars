@@ -1,0 +1,1428 @@
+{
+  "network": {
+    "edges": [
+      {
+        "source": "BEN",
+        "target": "GANTRY OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "BIGGS",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "HUMAN",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "RED LEADER",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "HAN",
+        "weight": 8
+      },
+      {
+        "source": "BEN",
+        "target": "BARTENDER",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "TROOPER",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "CREATURE",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "CHIEF",
+        "weight": 1
+      },
+      {
+        "source": "BEN",
+        "target": "THREEPIO",
+        "weight": 5
+      },
+      {
+        "source": "BEN",
+        "target": "LEIA",
+        "weight": 2
+      },
+      {
+        "source": "BEN",
+        "target": "LUKE",
+        "weight": 15
+      },
+      {
+        "source": "GANTRY OFFICER",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "GANTRY OFFICER",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "GANTRY OFFICER",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "OWEN",
+        "target": "LUKE",
+        "weight": 3
+      },
+      {
+        "source": "OWEN",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "OWEN",
+        "target": "BERU",
+        "weight": 1
+      },
+      {
+        "source": "OWEN",
+        "target": "AUNT BERU",
+        "weight": 2
+      },
+      {
+        "source": "BIGGS",
+        "target": "CAMIE",
+        "weight": 1
+      },
+      {
+        "source": "BIGGS",
+        "target": "WEDGE",
+        "weight": 1
+      },
+      {
+        "source": "BIGGS",
+        "target": "FIXER",
+        "weight": 1
+      },
+      {
+        "source": "BIGGS",
+        "target": "CHIEF",
+        "weight": 1
+      },
+      {
+        "source": "BIGGS",
+        "target": "RED LEADER",
+        "weight": 2
+      },
+      {
+        "source": "BIGGS",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "BIGGS",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "BIGGS",
+        "target": "LUKE",
+        "weight": 4
+      },
+      {
+        "source": "BIGGS",
+        "target": "GOLD LEADER",
+        "weight": 1
+      },
+      {
+        "source": "HUMAN",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "HUMAN",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "HUMAN",
+        "target": "CREATURE",
+        "weight": 1
+      },
+      {
+        "source": "HUMAN",
+        "target": "BARTENDER",
+        "weight": 1
+      },
+      {
+        "source": "INTERCOM VOICE",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "INTERCOM VOICE",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "INTERCOM VOICE",
+        "target": "OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "INTERCOM VOICE",
+        "target": "TARKIN",
+        "weight": 1
+      },
+      {
+        "source": "INTERCOM VOICE",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "SECOND TROOPER",
+        "target": "OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "SECOND TROOPER",
+        "target": "FIRST TROOPER",
+        "weight": 2
+      },
+      {
+        "source": "RED TEN",
+        "target": "RED LEADER",
+        "weight": 1
+      },
+      {
+        "source": "RED TEN",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "GOLD LEADER",
+        "target": "RED LEADER",
+        "weight": 1
+      },
+      {
+        "source": "GOLD LEADER",
+        "target": "DODONNA",
+        "weight": 1
+      },
+      {
+        "source": "GOLD LEADER",
+        "target": "WEDGE",
+        "weight": 1
+      },
+      {
+        "source": "GOLD LEADER",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "BARTENDER",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "BARTENDER",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "BARTENDER",
+        "target": "CREATURE",
+        "weight": 1
+      },
+      {
+        "source": "TAGGE",
+        "target": "MOTTI",
+        "weight": 1
+      },
+      {
+        "source": "TAGGE",
+        "target": "TARKIN",
+        "weight": 1
+      },
+      {
+        "source": "TAGGE",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "DEATH STAR INTERCOM VOICE",
+        "target": "TARKIN",
+        "weight": 1
+      },
+      {
+        "source": "DEATH STAR INTERCOM VOICE",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "TECHNICIAN",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "TECHNICIAN",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "TECHNICIAN",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "TECHNICIAN",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "TROOPER",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "TROOPER",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "TROOPER",
+        "target": "TARKIN",
+        "weight": 1
+      },
+      {
+        "source": "TROOPER",
+        "target": "THREEPIO",
+        "weight": 2
+      },
+      {
+        "source": "TROOPER",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "TROOPER",
+        "target": "FIRST OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "TROOPER",
+        "target": "IMPERIAL OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "TROOPER",
+        "target": "FIRST TROOPER",
+        "weight": 1
+      },
+      {
+        "source": "IMPERIAL OFFICER",
+        "target": "TARKIN",
+        "weight": 1
+      },
+      {
+        "source": "IMPERIAL OFFICER",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "OFFICER",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "OFFICER",
+        "target": "VADER",
+        "weight": 1
+      },
+      {
+        "source": "OFFICER",
+        "target": "TARKIN",
+        "weight": 1
+      },
+      {
+        "source": "OFFICER",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "OFFICER",
+        "target": "FIRST TROOPER",
+        "weight": 1
+      },
+      {
+        "source": "DODONNA",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "DODONNA",
+        "target": "WEDGE",
+        "weight": 1
+      },
+      {
+        "source": "AUNT BERU",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "AUNT BERU",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "AUNT BERU",
+        "target": "LUKE",
+        "weight": 2
+      },
+      {
+        "source": "VADER",
+        "target": "SECOND OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "VADER",
+        "target": "COMMANDER",
+        "weight": 1
+      },
+      {
+        "source": "VADER",
+        "target": "MOTTI",
+        "weight": 1
+      },
+      {
+        "source": "VADER",
+        "target": "WINGMAN",
+        "weight": 1
+      },
+      {
+        "source": "VADER",
+        "target": "TARKIN",
+        "weight": 4
+      },
+      {
+        "source": "VADER",
+        "target": "LEIA",
+        "weight": 1
+      },
+      {
+        "source": "FIRST OFFICER",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "FIRST OFFICER",
+        "target": "FIRST TROOPER",
+        "weight": 1
+      },
+      {
+        "source": "GREEDO",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "CAMIE",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "CAMIE",
+        "target": "FIXER",
+        "weight": 1
+      },
+      {
+        "source": "MAN",
+        "target": "HAN",
+        "weight": 1
+      },
+      {
+        "source": "MAN",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "COMMANDER",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "MOTTI",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "RED LEADER",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "HAN",
+        "weight": 10
+      },
+      {
+        "source": "LEIA",
+        "target": "TARKIN",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "FIRST TROOPER",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "WILLARD",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "CHIEF",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "THREEPIO",
+        "weight": 3
+      },
+      {
+        "source": "LEIA",
+        "target": "SECOND OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "LEIA",
+        "target": "LUKE",
+        "weight": 11
+      },
+      {
+        "source": "BERU",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "BERU",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "FIXER",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "COMMANDER",
+        "target": "SECOND OFFICER",
+        "weight": 1
+      },
+      {
+        "source": "RED LEADER",
+        "target": "WEDGE",
+        "weight": 2
+      },
+      {
+        "source": "RED LEADER",
+        "target": "CHIEF",
+        "weight": 1
+      },
+      {
+        "source": "RED LEADER",
+        "target": "LUKE",
+        "weight": 3
+      },
+      {
+        "source": "RED LEADER",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "RED LEADER",
+        "target": "RED NINE",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "JABBA",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "FIRST TROOPER",
+        "weight": 1
+      },
+      {
+        "source": "HAN",
+        "target": "THREEPIO",
+        "weight": 6
+      },
+      {
+        "source": "HAN",
+        "target": "LUKE",
+        "weight": 13
+      },
+      {
+        "source": "TARKIN",
+        "target": "MOTTI",
+        "weight": 2
+      },
+      {
+        "source": "FIRST TROOPER",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "FIRST TROOPER",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "WEDGE",
+        "target": "LUKE",
+        "weight": 2
+      },
+      {
+        "source": "CREATURE",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "CREATURE",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "CHIEF",
+        "target": "THREEPIO",
+        "weight": 1
+      },
+      {
+        "source": "CHIEF",
+        "target": "LUKE",
+        "weight": 1
+      },
+      {
+        "source": "THREEPIO",
+        "target": "LUKE",
+        "weight": 13
+      }
+    ],
+    "nodes": [
+      {
+        "id": "BEN",
+        "name": "BEN",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 13,
+        "pagerank": 0.07092876242260801,
+        "object_id": "4752562",
+        "triangles": 35,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.7073170731707317,
+        "betweenness centrality": 61.05190540453698,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "GANTRY OFFICER",
+        "name": "GANTRY OFFICER",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 4,
+        "pagerank": 0.009941104342054571,
+        "object_id": "4754618",
+        "triangles": 6,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.1707317073170733,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "OWEN",
+        "name": "OWEN",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 4,
+        "pagerank": 0.016422399108710906,
+        "object_id": "4751725",
+        "triangles": 5,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.317073170731707,
+        "betweenness centrality": 0.3333333333333333,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "BIGGS",
+        "name": "BIGGS",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 10,
+        "pagerank": 0.030952350647590214,
+        "object_id": "4751123",
+        "triangles": 23,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.9268292682926829,
+        "betweenness centrality": 22.91428571428571,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "HUMAN",
+        "name": "HUMAN",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 5,
+        "pagerank": 0.012593462841404985,
+        "object_id": "4753278",
+        "triangles": 10,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.1951219512195124,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "INTERCOM VOICE",
+        "name": "INTERCOM VOICE",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 5,
+        "pagerank": 0.014067654097459284,
+        "object_id": "4755005",
+        "triangles": 6,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.951219512195122,
+        "betweenness centrality": 11.852760105391686,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "SECOND TROOPER",
+        "name": "SECOND TROOPER",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 2,
+        "pagerank": 0.010238176147073704,
+        "object_id": "4751650",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.707317073170732,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "RED TEN",
+        "name": "RED TEN",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 2,
+        "pagerank": 0.007200673572792828,
+        "object_id": "4756961",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.3658536585365852,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "GOLD LEADER",
+        "name": "GOLD LEADER",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 5,
+        "pagerank": 0.01399865329178052,
+        "object_id": "4756632",
+        "triangles": 8,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.292682926829268,
+        "betweenness centrality": 0.9999999999999999,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "BARTENDER",
+        "name": "BARTENDER",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 5,
+        "pagerank": 0.012593462841404985,
+        "object_id": "4753219",
+        "triangles": 10,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.1951219512195124,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "TAGGE",
+        "name": "TAGGE",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 3,
+        "pagerank": 0.011198060485588478,
+        "object_id": "4752885",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.902439024390244,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "DEATH STAR INTERCOM VOICE",
+        "name": "DEATH STAR INTERCOM VOICE",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 2,
+        "pagerank": 0.00850975054032049,
+        "object_id": "4756600",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.926829268292683,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "TECHNICIAN",
+        "name": "TECHNICIAN",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 4,
+        "pagerank": 0.010089657722247876,
+        "object_id": "4758867",
+        "triangles": 6,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.048780487804878,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "TROOPER",
+        "name": "TROOPER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 9,
+        "pagerank": 0.024305047929757875,
+        "object_id": "4751004",
+        "triangles": 15,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.829268292682927,
+        "betweenness centrality": 51.3749646552278,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "IMPERIAL OFFICER",
+        "name": "IMPERIAL OFFICER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 3,
+        "pagerank": 0.010575758555516398,
+        "object_id": "4750957",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.5121951219512195,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "OFFICER",
+        "name": "OFFICER",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 7,
+        "pagerank": 0.019196819102092283,
+        "object_id": "4754478",
+        "triangles": 9,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.8780487804878048,
+        "betweenness centrality": 31.774585502217086,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "DODONNA",
+        "name": "DODONNA",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 3,
+        "pagerank": 0.009714895369547642,
+        "object_id": "4756620",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.3658536585365852,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "AUNT BERU",
+        "name": "AUNT BERU",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 4,
+        "pagerank": 0.01404598345858101,
+        "object_id": "4752106",
+        "triangles": 5,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.097560975609756,
+        "betweenness centrality": 2.3146407685881365,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "VADER",
+        "name": "VADER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 13,
+        "pagerank": 0.047122266977621154,
+        "object_id": "4750964",
+        "triangles": 17,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.975609756097561,
+        "betweenness centrality": 112.36826601760812,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "FIRST OFFICER",
+        "name": "FIRST OFFICER",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 3,
+        "pagerank": 0.009402323391082849,
+        "object_id": "4755423",
+        "triangles": 3,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.3658536585365852,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "GREEDO",
+        "name": "GREEDO",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 1,
+        "pagerank": 0.005200719159366511,
+        "object_id": "4753469",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.7560975609756095,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "CAMIE",
+        "name": "CAMIE",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 3,
+        "pagerank": 0.009834369886749437,
+        "object_id": "4751102",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.3658536585365852,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "MAN",
+        "name": "MAN",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 2,
+        "pagerank": 0.006798164194914329,
+        "object_id": "4756721",
+        "triangles": 1,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.341463414634146,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LEIA",
+        "name": "LEIA",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 16,
+        "pagerank": 0.07574966876096824,
+        "object_id": "4751215",
+        "triangles": 33,
+        "eccentricity": 2.0,
+        "closeness centrality": 1.6097560975609757,
+        "betweenness centrality": 181.23256699440907,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "BERU",
+        "name": "BERU",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 3,
+        "pagerank": 0.008760056234800338,
+        "object_id": "4751714",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.341463414634146,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "FIXER",
+        "name": "FIXER",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 3,
+        "pagerank": 0.009834369886749439,
+        "object_id": "4751098",
+        "triangles": 3,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.3658536585365852,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "COMMANDER",
+        "name": "COMMANDER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 3,
+        "pagerank": 0.010841328855926346,
+        "object_id": "4751246",
+        "triangles": 3,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.3658536585365852,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "RED LEADER",
+        "name": "RED LEADER",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 10,
+        "pagerank": 0.03346621994377328,
+        "object_id": "4756814",
+        "triangles": 21,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.9268292682926829,
+        "betweenness centrality": 54.85714285714287,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "HAN",
+        "name": "HAN",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 13,
+        "pagerank": 0.08817489207230159,
+        "object_id": "4753357",
+        "triangles": 24,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.7804878048780488,
+        "betweenness centrality": 100.0434065934066,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "WINGMAN",
+        "name": "WINGMAN",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 1,
+        "pagerank": 0.006075048314734611,
+        "object_id": "4757720",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.951219512195122,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "TARKIN",
+        "name": "TARKIN",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 9,
+        "pagerank": 0.03723253390451971,
+        "object_id": "4752911",
+        "triangles": 12,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.1707317073170733,
+        "betweenness centrality": 32.572984544695075,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "FIRST TROOPER",
+        "name": "FIRST TROOPER",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 8,
+        "pagerank": 0.022952657091418048,
+        "object_id": "4751643",
+        "triangles": 14,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.9024390243902438,
+        "betweenness centrality": 28.760714285714283,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "MOTTI",
+        "name": "MOTTI",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 4,
+        "pagerank": 0.01581196249001105,
+        "object_id": "4752894",
+        "triangles": 5,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.341463414634146,
+        "betweenness centrality": 4.28765664160401,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "WEDGE",
+        "name": "WEDGE",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 5,
+        "pagerank": 0.017841229894410057,
+        "object_id": "4756673",
+        "triangles": 8,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.292682926829268,
+        "betweenness centrality": 0.9999999999999999,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "JABBA",
+        "name": "JABBA",
+        "color": "#3E85FA",
+        "group": 1,
+        "degree": 1,
+        "pagerank": 0.005200719159366511,
+        "object_id": "4753640",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.7560975609756095,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "CREATURE",
+        "name": "CREATURE",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 5,
+        "pagerank": 0.012593462841404985,
+        "object_id": "4753270",
+        "triangles": 10,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.1951219512195124,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "RED NINE",
+        "name": "RED NINE",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 1,
+        "pagerank": 0.00560322853724501,
+        "object_id": "4756981",
+        "triangles": 0,
+        "eccentricity": 4.0,
+        "closeness centrality": 2.902439024390244,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "CHIEF",
+        "name": "CHIEF",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 6,
+        "pagerank": 0.013917186063252011,
+        "object_id": "4756861",
+        "triangles": 15,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.024390243902439,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "THREEPIO",
+        "name": "THREEPIO",
+        "color": "#7A40BB",
+        "group": 0,
+        "degree": 18,
+        "pagerank": 0.07891746544309702,
+        "object_id": "4750811",
+        "triangles": 48,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.6341463414634145,
+        "betweenness centrality": 83.28292927832405,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "SECOND OFFICER",
+        "name": "SECOND OFFICER",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 3,
+        "pagerank": 0.010841328855926346,
+        "object_id": "4751269",
+        "triangles": 3,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.3658536585365852,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "LUKE",
+        "name": "LUKE",
+        "color": "#1FAA54",
+        "group": 3,
+        "degree": 26,
+        "pagerank": 0.15599030044852907,
+        "object_id": "4750888",
+        "triangles": 62,
+        "eccentricity": 3.0,
+        "closeness centrality": 1.4390243902439024,
+        "betweenness centrality": 287.9778573035153,
+        "eigenvector centrality": 0
+      },
+      {
+        "id": "WILLARD",
+        "name": "WILLARD",
+        "color": "#FFD12B",
+        "group": 2,
+        "degree": 1,
+        "pagerank": 0.005265825115299796,
+        "object_id": "4756564",
+        "triangles": 0,
+        "eccentricity": 3.0,
+        "closeness centrality": 2.5853658536585367,
+        "betweenness centrality": 0.0,
+        "eigenvector centrality": 0
+      }
+    ],
+    "positions": [
+      {
+        "x": -9.6373625,
+        "y": 68.279976,
+        "name": "BEN"
+      },
+      {
+        "x": 34.19031,
+        "y": 153.84415,
+        "name": "GANTRY OFFICER"
+      },
+      {
+        "x": 25.441294,
+        "y": 201.50774,
+        "name": "OWEN"
+      },
+      {
+        "x": 142.17247,
+        "y": 72.66969,
+        "name": "BIGGS"
+      },
+      {
+        "x": -96.44398,
+        "y": 163.98744,
+        "name": "HUMAN"
+      },
+      {
+        "x": -110.89006,
+        "y": -81.915535,
+        "name": "INTERCOM VOICE"
+      },
+      {
+        "x": -16.96372,
+        "y": -138.63934,
+        "name": "SECOND TROOPER"
+      },
+      {
+        "x": 121.2016,
+        "y": 227.63551,
+        "name": "RED TEN"
+      },
+      {
+        "x": 240.75128,
+        "y": 143.09766,
+        "name": "GOLD LEADER"
+      },
+      {
+        "x": -56.141205,
+        "y": 218.34908,
+        "name": "BARTENDER"
+      },
+      {
+        "x": -277.4884,
+        "y": -212.26186,
+        "name": "TAGGE"
+      },
+      {
+        "x": -300.2349,
+        "y": -150.87032,
+        "name": "DEATH STAR INTERCOM VOICE"
+      },
+      {
+        "x": 65.21739,
+        "y": -15.672682,
+        "name": "TECHNICIAN"
+      },
+      {
+        "x": -134.21106,
+        "y": 1.2886206,
+        "name": "TROOPER"
+      },
+      {
+        "x": -261.3623,
+        "y": -65.58426,
+        "name": "IMPERIAL OFFICER"
+      },
+      {
+        "x": -68.957855,
+        "y": -131.00525,
+        "name": "OFFICER"
+      },
+      {
+        "x": 229.31868,
+        "y": 199.65607,
+        "name": "DODONNA"
+      },
+      {
+        "x": -10.926219,
+        "y": 179.62482,
+        "name": "AUNT BERU"
+      },
+      {
+        "x": -188.28333,
+        "y": -150.58728,
+        "name": "VADER"
+      },
+      {
+        "x": -141.0939,
+        "y": 60.65652,
+        "name": "FIRST OFFICER"
+      },
+      {
+        "x": 30.474976,
+        "y": -144.68378,
+        "name": "GREEDO"
+      },
+      {
+        "x": 217.43303,
+        "y": 47.139927,
+        "name": "CAMIE"
+      },
+      {
+        "x": 111.61035,
+        "y": -32.62153,
+        "name": "MAN"
+      },
+      {
+        "x": -33.29668,
+        "y": 14.399305,
+        "name": "LEIA"
+      },
+      {
+        "x": 66.13102,
+        "y": 209.9199,
+        "name": "BERU"
+      },
+      {
+        "x": 200.8399,
+        "y": 8.650582,
+        "name": "FIXER"
+      },
+      {
+        "x": -126.073395,
+        "y": -145.56721,
+        "name": "COMMANDER"
+      },
+      {
+        "x": 145.32014,
+        "y": 130.47359,
+        "name": "RED LEADER"
+      },
+      {
+        "x": 15.307388,
+        "y": 21.122313,
+        "name": "HAN"
+      },
+      {
+        "x": -182.10931,
+        "y": -247.05887,
+        "name": "WINGMAN"
+      },
+      {
+        "x": -231.05284,
+        "y": -117.38846,
+        "name": "TARKIN"
+      },
+      {
+        "x": -37.847187,
+        "y": -62.995758,
+        "name": "FIRST TROOPER"
+      },
+      {
+        "x": -240.78177,
+        "y": -174.11163,
+        "name": "MOTTI"
+      },
+      {
+        "x": 191.74472,
+        "y": 155.44438,
+        "name": "WEDGE"
+      },
+      {
+        "x": 86.85728,
+        "y": -88.86288,
+        "name": "JABBA"
+      },
+      {
+        "x": -101.62058,
+        "y": 208.84119,
+        "name": "CREATURE"
+      },
+      {
+        "x": 268.747,
+        "y": 63.76206,
+        "name": "RED NINE"
+      },
+      {
+        "x": 92.13339,
+        "y": 152.51587,
+        "name": "CHIEF"
+      },
+      {
+        "x": -16.474318,
+        "y": 113.99646,
+        "name": "THREEPIO"
+      },
+      {
+        "x": -158.96829,
+        "y": -103.473564,
+        "name": "SECOND OFFICER"
+      },
+      {
+        "x": 42.65976,
+        "y": 80.37191,
+        "name": "LUKE"
+      },
+      {
+        "x": -187.89323,
+        "y": 35.230682,
+        "name": "WILLARD"
+      }
+    ]
+  }
+}
