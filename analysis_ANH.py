@@ -6,8 +6,8 @@ import random
 import matplotlib.patches as mpatches
 from networkx.algorithms.community import louvain_communities
 
-MOVIE_TITLE = "Star Wars: Return of the Jedi"
-JSON_FILE_PATH = "movie-jsons/jedi.json"
+MOVIE_TITLE = "Star Wars: A New Hope"
+JSON_FILE_PATH = "movie-jsons/new-hope.json"
 
 def build_network_from_json(file_path):
     with open(file_path, 'r') as f:
@@ -21,13 +21,13 @@ def build_network_from_json(file_path):
     return G
 
 def print_top_centrality(centrality_dict, measure_name, top_n=5):
-    print(f"\n--- Top {top_n} Personaggi per {measure_name} ---")
+    print(f"\n--- Top {top_n} Characters by {measure_name} ---")
     sorted_centrality = sorted(centrality_dict.items(), key=lambda item: item[1], reverse=True)
     for i in range(min(top_n, len(sorted_centrality))):
         character, value = sorted_centrality[i]
         print(f"{i+1}. {character}: {value:.4f}")
     mean_value = sum(centrality_dict.values()) / len(centrality_dict)
-    print(f"Valore medio di {measure_name}: {mean_value:.4f}")
+    print(f"Average {measure_name}: {mean_value:.4f}")
 
 def analyze_robustness(G, removal_strategy='degree'):
     G_copy = G.copy()
@@ -57,25 +57,25 @@ def analyze_robustness(G, removal_strategy='degree'):
             gcc_sizes.append(0)
     return gcc_sizes
 
-# --- Esecuzione Principale ---
+# --- Main Execution ---
 if __name__ == "__main__":
     G_anh = build_network_from_json(JSON_FILE_PATH)
 
-    print(f"Rete di '{MOVIE_TITLE}' costruita con successo!")
-    print(f"Numero di personaggi (nodi): {G_anh.number_of_nodes()}")
-    print(f"Numero di interazioni (archi): {G_anh.number_of_edges()}")
+    print(f"Network of '{MOVIE_TITLE}' built successfully!")
+    print(f"Number of characters (nodes): {G_anh.number_of_nodes()}")
+    print(f"Number of interactions (edges): {G_anh.number_of_edges()}")
 
-    # --- Visualizzazione semplice ---
+    # --- Simple Visualization ---
     plt.figure(figsize=(15, 15))
     pos = nx.spring_layout(G_anh, k=0.5, iterations=50, seed=42)
     nx.draw(G_anh, pos, with_labels=True, node_color='skyblue', node_size=500, font_size=8, edge_color='gray')
-    plt.title(f"Rete dei Personaggi di '{MOVIE_TITLE}'", size=20)
+    plt.title(f"Character Network of '{MOVIE_TITLE}'", size=20)
     file_name = f"{MOVIE_TITLE}_network.png"
     plt.savefig(file_name)
-    print(f"\nGrafico salvato in {file_name}")
+    print(f"\nGraph saved to {file_name}")
 
-    # --- Centralità ---
-    print("\n--- Analisi di Centralità ---")
+    # --- Centrality Analysis ---
+    print("\n--- Centrality Analysis ---")
     degree_centrality = nx.degree_centrality(G_anh)
     betweenness_centrality = nx.betweenness_centrality(G_anh, weight='weight')
     closeness_centrality = nx.closeness_centrality(G_anh, distance='weight')
@@ -83,7 +83,7 @@ if __name__ == "__main__":
         eigenvector_centrality = nx.eigenvector_centrality(G_anh, weight='weight', max_iter=1000)
     except nx.PowerIterationFailedConvergence:
         eigenvector_centrality = {node: 0.0 for node in G_anh.nodes()}
-        print("Avviso: il calcolo dell'Eigenvector Centrality non è convergente.")
+        print("Warning: Eigenvector Centrality calculation did not converge.")
     pagerank = nx.pagerank(G_anh, weight='weight')
 
     print_top_centrality(degree_centrality, "Degree Centrality")
@@ -92,7 +92,7 @@ if __name__ == "__main__":
     print_top_centrality(eigenvector_centrality, "Eigenvector Centrality")
     print_top_centrality(pagerank, "PageRank")
 
-    # Salva le centralità in CSV
+    # Save centralities to CSV
     centralities_df = pd.DataFrame({
         'Character': list(G_anh.nodes()),
         'Degree': [degree_centrality.get(n, 0) for n in G_anh.nodes()],
@@ -103,87 +103,87 @@ if __name__ == "__main__":
     })
     file_name_csv = f"centralities_{MOVIE_TITLE}.csv"
     centralities_df.to_csv(file_name_csv, index=False)
-    print(f"\nDati di centralità salvati in {file_name_csv}")
+    print(f"\nCentrality data saved to {file_name_csv}")
 
-    # --- Community (Louvain) ---
-    print("\n--- Analisi di Community (Metodo Louvain) ---")
+    # --- Community Detection (Louvain) ---
+    print("\n--- Community Analysis (Louvain Method) ---")
     communities = louvain_communities(G_anh, weight='weight')
-    print(f"Trovate {len(communities)} community.")
+    print(f"Found {len(communities)} communities.")
     for i, community in enumerate(communities):
         print(f"Community {i+1}: {sorted(list(community))}")
     modularity = nx.community.modularity(G_anh, communities, weight='weight')
-    print(f"Modularità della partizione: {modularity:.4f}")
+    print(f"Partition modularity: {modularity:.4f}")
 
     node_to_community = {}
     for i, community in enumerate(communities):
         for character in community:
             node_to_community[character] = i
 
-    # --- Visualizzazione con community ---
+    # --- Visualization with Communities ---
     plt.figure(figsize=(18, 18))
     pos = nx.spring_layout(G_anh, k=0.6, iterations=100, seed=42)
     node_colors = [node_to_community.get(node) for node in G_anh.nodes()]
     nx.draw(G_anh, pos, with_labels=True, node_color=node_colors, cmap=plt.cm.Set1,
             node_size=800, font_size=10, edge_color='lightgray')
-    plt.title("Rete con Community (Louvain)", size=20)
+    plt.title("Network with Communities (Louvain)", size=20)
 
     handles = [mpatches.Patch(color=plt.cm.Set1(i / len(communities)), label=f"Community {i+1}") for i in range(len(communities))]
     plt.legend(handles=handles, loc='best')
     file_name_comm = f"{MOVIE_TITLE}_network_communities.png"
     plt.savefig(file_name_comm)
-    print(f"\nGrafico salvato in {file_name_comm}")
+    print(f"\nGraph saved to {file_name_comm}")
 
-    # --- Proprietà strutturali ---
-    print("\n--- Analisi delle Proprietà Strutturali ---")
+    # --- Structural Properties ---
+    print("\n--- Structural Properties Analysis ---")
     degree_sequence = [d for _, d in G_anh.degree()]
-    print(f"Grado minimo: {min(degree_sequence)}")
-    print(f"Grado massimo: {max(degree_sequence)}")
-    print(f"Grado medio: {sum(degree_sequence) / len(degree_sequence):.2f}")
+    print(f"Minimum degree: {min(degree_sequence)}")
+    print(f"Maximum degree: {max(degree_sequence)}")
+    print(f"Average degree: {sum(degree_sequence) / len(degree_sequence):.2f}")
     avg_clustering = nx.average_clustering(G_anh)
-    print(f"Clustering medio: {avg_clustering:.4f}")
+    print(f"Average clustering: {avg_clustering:.4f}")
 
     if nx.is_connected(G_anh):
         avg_path_length = nx.average_shortest_path_length(G_anh)
-        print("La rete è connessa.")
-        print(f"Cammino minimo medio: {avg_path_length:.4f}")
+        print("The network is connected.")
+        print(f"Average shortest path length: {avg_path_length:.4f}")
         G_main_component = G_anh
     else:
-        print("Rete non connessa. Calcolo sul GCC.")
+        print("Network is not connected. Calculating on the GCC.")
         giant_nodes = max(nx.connected_components(G_anh), key=len)
         G_main_component = G_anh.subgraph(giant_nodes)
         avg_path_length = nx.average_shortest_path_length(G_main_component)
-        print(f"Cammino minimo medio (GCC): {avg_path_length:.4f}")
+        print(f"Average shortest path length (GCC): {avg_path_length:.4f}")
 
-    # --- Diametro e percorso massimo ---
-    print("\n--- Analisi Diametro ---")
+    # --- Diameter and Maximum Path ---
+    print("\n--- Diameter Analysis ---")
     try:
         diameter = nx.diameter(G_main_component)
-        print(f"Diametro: {diameter}")
+        print(f"Diameter: {diameter}")
         for source in G_main_component.nodes():
             for target in G_main_component.nodes():
                 if source != target:
                     path = nx.shortest_path(G_main_component, source, target)
                     if len(path) - 1 == diameter:
-                        print(f"Esempio di percorso massimo: {' -> '.join(path)}")
+                        print(f"Example of a maximum path: {' -> '.join(path)}")
                         raise StopIteration
     except StopIteration:
         pass
 
-    # --- Robustezza ---
-    print("\n--- Analisi di Robustezza ---")
+    # --- Robustness Analysis ---
+    print("\n--- Robustness Analysis ---")
     robustness_targeted = analyze_robustness(G_anh, removal_strategy='degree')
     robustness_random = analyze_robustness(G_anh, removal_strategy='random')
 
     plt.figure(figsize=(12, 7))
-    plt.plot(robustness_targeted, marker='o', linestyle='--', label='Attacco Mirato (Grado)')
-    plt.plot(robustness_random, marker='x', linestyle=':', label='Errore Casuale')
-    plt.xlabel("Nodi Rimossi")
-    plt.ylabel("Dimensione GCC")
-    plt.title("Robustezza della Rete")
+    plt.plot(robustness_targeted, marker='o', linestyle='--', label='Targeted Attack (Degree)')
+    plt.plot(robustness_random, marker='x', linestyle=':', label='Random Failure')
+    plt.xlabel("Nodes Removed")
+    plt.ylabel("GCC Size")
+    plt.title("Network Robustness")
     plt.grid(True)
     plt.legend()
     file_name_robust = f"{MOVIE_TITLE}_robustness_analysis.png"
     plt.savefig(file_name_robust)
-    print(f"Grafico salvato in {file_name_robust}")
+    print(f"Graph saved to {file_name_robust}")
 
-    print("\nAnalisi terminata.")
+    print("\nAnalysis finished.")

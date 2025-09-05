@@ -4,9 +4,9 @@ This repository contains Python scripts to analyze the character interaction net
 
 ## Scripts
 
-- **`analisi_ANH.py`**: Analyzes the character interaction network of a *Star Wars: Episode IV – A New Hope*.
-- **`analisi_ESB.py`**: Analyzes the character interaction network of *Star Wars: Episode V – The Empire Strikes Back*.
-- **`analisi_RJ.py`**: Analyzes the character interaction network of *Star Wars: Episode VI – Return of the Jedi*.
+- **`analysis_ANH.py`**: Analyzes the character interaction network of a *Star Wars: Episode IV – A New Hope*.
+- **`analysis_ESB.py`**: Analyzes the character interaction network of *Star Wars: Episode V – The Empire Strikes Back*.
+- **`analysis_RJ.py`**: Analyzes the character interaction network of *Star Wars: Episode VI – Return of the Jedi*.
 
 ## Configuration
 
@@ -37,7 +37,7 @@ Each script performs the following analyses:
 ## How to Run
 
 1.  **Install dependencies**: `pip install networkx matplotlib pandas scipy`
-2.  **Run a script**: `python3 analisi_ANH.py`
+2.  **Run a script**: `python3 analysis_ANH.py`
 
 ## Output
 
